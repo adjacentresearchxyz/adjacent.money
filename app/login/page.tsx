@@ -20,7 +20,7 @@ export default function AuthenticationPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg text-black">
-                &ldquo;A bank is a place where they lend you an umbrella in fair weather <strike> and ask for it back when it begins to rain.</strike>&rdquo;
+                &ldquo;A bank is a place where they lend you an umbrella in fair weather and ask for it back when it begins to rain.&rdquo;
               </p>
               <footer className="text-sm text-black">Robert Frost</footer>
             </blockquote>

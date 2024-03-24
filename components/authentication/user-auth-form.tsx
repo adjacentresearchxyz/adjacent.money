@@ -17,9 +17,9 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
     <div className={cn("grid gap-6", className)} {...props}>
       <div className="grid gap-2">
         <Button disabled={isLoading} onClick={() => window.location.href='/api/auth/login'}>
-          {isLoading && (
+          {/* {isLoading && (
             <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
-          )}
+          )} */}
           Log in
         </Button>
       </div>
@@ -34,9 +34,9 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
         </div>
       </div>
       <Button variant="outline" disabled={isLoading} onClick={() => window.location.href='/api/auth/login'}>
-          {isLoading && (
+          {/* {isLoading && (
             <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
-          )}
+          )} */}
           Sign up
         </Button>
     </div>

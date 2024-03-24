@@ -7,7 +7,7 @@ import { NextResponse } from 'next/server'
 
 export async function GET(
     request: Request,
-    response: NextApiResponse
+    response: NextResponse
 ) {
     const increase = new Increase({
         apiKey: process.env['NEXT_PUBLIC_INCREASE_API_KEY'],
